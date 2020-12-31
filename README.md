@@ -1,24 +1,20 @@
-# noteslist
+Проект написан с использовантем  Vue, Vuex, Vue-router, Scss, Axios, Node.js. 
 
-## Project setup
-```
-npm install
-```
+ЛОГИН: login
+ПАРОЛЬ: password
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Проект состоит из 3х страниц:
+- страница авторизации
+- список заметок,
+- страница с добавлением новой заметки,
+- страница с ошибкой 404.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Есть адаптация под мобильные устройства (экран до 320px)
 
-### Lints and fixes files
-```
-npm run lint
-```
+Установка и запуск проекта:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+    git clone https://github.com/evgeniya-osmakova/notesList.git
+    
+    docker-compose up -d 
+    
+
